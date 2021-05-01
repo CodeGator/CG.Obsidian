@@ -11,6 +11,10 @@ Obsidian is a nanoservice that manages MIME types and associated file extensions
 #### What platform(s) does it support?
 * .NET 5.x or higher
 
+### How do I access this service?
+* It can be accessed directly from an HTTP client, in any language.
+* It can be access through the [CG.Obsidian.Web.Clients](https://github.com/CodeGator/CG.Obsidian.Web.Clients) [NUGET](https://www.nuget.org/packages/CG.Obsidian.Web.Clients/) package.
+
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Obsidian/issues)
 
