@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30. Web", "30. Web", "{55459F74-277D-48AD-81AF-532D84F1CDD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Library", "10. Library", "{75F359AC-2C90-4DEA-8A1C-618418B0BFFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Data", "20. Data", "{A27E4942-4211-47EE-86EB-F7CB5A8841DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CG.Obsidian.Web", "Web\CG.Obsidian.Web\CG.Obsidian.Web.csproj", "{28C46622-E61B-4287-BF93-9A0FCAA59DD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CG.Obsidian.Abstractions", "Library\CG.Obsidian.Abstractions\CG.Obsidian.Abstractions.csproj", "{E85D315C-3BE8-496C-A39F-B04250D08217}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CG.Obsidian", "Library\CG.Obsidian\CG.Obsidian.csproj", "{FDFD2614-410A-4CCC-84AD-20F7F725B42A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CG.Obsidian.SqlServer", "Data\CG.Obsidian.SqlServer\CG.Obsidian.SqlServer.csproj", "{BB593F99-88C8-40E3-979D-3D67A26A15E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40. Tests", "40. Tests", "{26E6B823-BA7E-4323-B3D6-282AAFDBFBA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28C46622-E61B-4287-BF93-9A0FCAA59DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C46622-E61B-4287-BF93-9A0FCAA59DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C46622-E61B-4287-BF93-9A0FCAA59DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C46622-E61B-4287-BF93-9A0FCAA59DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85D315C-3BE8-496C-A39F-B04250D08217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85D315C-3BE8-496C-A39F-B04250D08217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85D315C-3BE8-496C-A39F-B04250D08217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85D315C-3BE8-496C-A39F-B04250D08217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFD2614-410A-4CCC-84AD-20F7F725B42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFD2614-410A-4CCC-84AD-20F7F725B42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFD2614-410A-4CCC-84AD-20F7F725B42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFD2614-410A-4CCC-84AD-20F7F725B42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB593F99-88C8-40E3-979D-3D67A26A15E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB593F99-88C8-40E3-979D-3D67A26A15E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB593F99-88C8-40E3-979D-3D67A26A15E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB593F99-88C8-40E3-979D-3D67A26A15E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28C46622-E61B-4287-BF93-9A0FCAA59DD2} = {55459F74-277D-48AD-81AF-532D84F1CDD3}
+		{E85D315C-3BE8-496C-A39F-B04250D08217} = {75F359AC-2C90-4DEA-8A1C-618418B0BFFF}
+		{FDFD2614-410A-4CCC-84AD-20F7F725B42A} = {75F359AC-2C90-4DEA-8A1C-618418B0BFFF}
+		{BB593F99-88C8-40E3-979D-3D67A26A15E5} = {A27E4942-4211-47EE-86EB-F7CB5A8841DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89431E6C-1651-480E-B3B5-CEEEF6ACDADE}
+	EndGlobalSection
+EndGlobal

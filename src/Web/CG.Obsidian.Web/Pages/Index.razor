@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<div class="container">
+    <div class="jumbotron">
+        <MudText Typo="Typo.h4">@typeof(Index).Assembly.ReadProduct()</MudText>
+        <MudText Typo="Typo.caption">Version [ @typeof(Index).Assembly.ReadInformationalVersion() ]</MudText>
+        <MudText Class="pt-5 pb-2" Typo="Typo.body1">@typeof(Index).Assembly.ReadDescription()</MudText>
+
+        <MudText Class="pt-5" Typo="Typo.h6">Capabilities</MudText>
+        <ul style="list-style-type:square">
+            <li>Obsidian is open-source, free to use, fast and reliable.</li>
+            <li>Obsidian is written in <strong>C#</strong>, <strong>ASP.NET</strong> and <strong>Blazor</strong>.</li>
+            <li>Obsidian leverages the <strong>MudBlazor</strong> library, for a clean, standards driven UI.</li>
+            <li>Obsidian leverages <strong>CODEGATOR</strong> packages, for a proven, standards driven architecture.</li>
+            <li>Obsidian is built on top of <strong>.NET 5.x</strong>, so it runs on multiple operating systems, without fuss.</li>
+            <li>Obsidian integrates with <strong>OIDC</strong> compliant authentication services, such as <strong>IdentityServer4</strong>.</li>
+            <li>Obsidian is repository driven, making it easy to use with a variety of database storage options.</li>
+            <li>Obsidian users are 57.8% more likely to win lotto in the next 3 months. <small>(Ok, we made that one up)</small></li>
+        </ul>
+    </div>
+</div>

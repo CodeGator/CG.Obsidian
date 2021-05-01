@@ -1,0 +1,29 @@
+﻿@using FileExtension = Models.FileExtension 
+
+<EditForm Model="@Model" OnValidSubmit="OnValidSubmit">
+    <MudDialog>
+        <TitleContent>
+            <div class="d-flex">
+                <MudIcon Size="Size.Small" 
+                         Icon="@Icons.Material.Filled.Edit" 
+                         class="mr-3"></MudIcon>
+                <MudText>@Caption</MudText>
+            </div>
+        </TitleContent>
+        <DialogContent>
+            <DataAnnotationsValidator />
+            <MudTextField @bind-Value="@Model.Extension"
+                          For="(() => Model.Extension)"
+                          Label="Extension" />
+        </DialogContent>
+        <DialogActions>
+            <MudButton OnClick="Cancel">
+                Cancel
+            </MudButton>
+            <MudButton Color="Color.Primary" 
+                       ButtonType="ButtonType.Submit">
+                Save Changes
+            </MudButton>
+        </DialogActions>
+    </MudDialog>
+</EditForm>
