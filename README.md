@@ -1,8 +1,8 @@
 # CG.Obsidian: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Obsidian/_apis/build/status/CodeGator.CG.Obsidian?branchName=main)](https://dev.azure.com/codegator/CG.Obsidian/_build/latest?definitionId=47&branchName=main)
+[![Build Status](https://dev.azure.com/codegator/CG.Obsidian/_apis/build/status/CodeGator.CG.Obsidian?branchName=main)](https://dev.azure.com/codegator/CG.Obsidian/_build/latest?definitionId=60&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Obsidian/index.html)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Obsidian/47)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Obsidian/60)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Obsidian/discussions)
 
 #### What does it do?
