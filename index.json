@@ -257,6 +257,6 @@
   "index.html": {
     "href": "index.html",
     "title": "Introduction",
-    "keywords": "Introduction CG.Beryl is a nanoservice for managing Mime types and associate file extensions."
+    "keywords": "Introduction CG.Obsidian.Web is a nanoservice for managing Mime types and associate file extensions."
   }
 }
