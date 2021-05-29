@@ -83,7 +83,11 @@ namespace Microsoft.Extensions.DependencyInjection
             });
 
             // Register the data-context factory.
-            serviceCollection.Add<DbContextFactory<ObsidianDbContext>>(serviceLifetime);
+            serviceCollection.AddDbContextFactory<ObsidianDbContext>(builder =>
+            {
+                // Configure the options.
+                builder.UseSqlServer(repositoryOptions.ConnectionString);
+            });
 
             // Register the repositories.
             serviceCollection.Add<IMimeTypeRepository, MimeTypeRepository>(serviceLifetime);

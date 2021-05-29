@@ -5,6 +5,7 @@ using CG.Obsidian.Models;
 using CG.Obsidian.Repositories;
 using CG.Obsidian.SqlServer.Repositories.Options;
 using CG.Validations;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
@@ -52,7 +53,7 @@ namespace CG.Obsidian.SqlServer.Repositories
         /// <param name="logger">The logger to use with the repository.</param>
         public FileExtensionRepository(
             IOptions<ObsidianRepositoryOptions> options,
-            DbContextFactory<ObsidianDbContext> factory,
+            IDbContextFactory<ObsidianDbContext> factory,
             ILogger<FileExtensionRepository> logger
             ) : base(options, factory)
         {
@@ -77,7 +78,7 @@ namespace CG.Obsidian.SqlServer.Repositories
             try
             {
                 // Create the context.
-                var context = Factory.Create();
+                var context = Factory.CreateDbContext();
 
                 // Defer to the context.
                 var query = context.FileExtensions
@@ -118,7 +119,7 @@ namespace CG.Obsidian.SqlServer.Repositories
                 Guard.Instance().ThrowIfNull(model, nameof(model));
 
                 // Create a context.
-                var context = Factory.Create();
+                var context = Factory.CreateDbContext();
 
                 // Add to the data-context.
                 var entity = await context.FileExtensions.AddAsync(
@@ -168,7 +169,7 @@ namespace CG.Obsidian.SqlServer.Repositories
                 Guard.Instance().ThrowIfNull(model, nameof(model));
 
                 // Create a context.
-                var context = Factory.Create();
+                var context = Factory.CreateDbContext();
 
                 // Find the model in the data-context.
                 var originalModel = context.FileExtensions.Find(
@@ -232,7 +233,7 @@ namespace CG.Obsidian.SqlServer.Repositories
                 Guard.Instance().ThrowIfNull(model, nameof(model));
 
                 // Create a context.
-                var context = Factory.Create();
+                var context = Factory.CreateDbContext();
 
                 // Defer to the data-context.
                 context.FileExtensions.Remove(model);

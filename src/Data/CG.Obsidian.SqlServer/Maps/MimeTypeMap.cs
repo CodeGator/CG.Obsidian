@@ -60,7 +60,8 @@ namespace CG.Obsidian.SqlServer.Maps
             builder.HasIndex(e => new 
             { 
                 e.Type,
-                e.SubType
+                e.SubType,
+                e.Description
             }).IsUnique();
 
             // Give the base class a chance.

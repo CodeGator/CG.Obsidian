@@ -23,16 +23,6 @@ namespace CG.Obsidian.Web.Pages.MimeTypes
         #region Fields
 
         /// <summary>
-        /// This field contains a summary error message.
-        /// </summary>
-        private string _error;
-
-        /// <summary>
-        /// This field contains an information message.
-        /// </summary>
-        private string _info;
-
-        /// <summary>
         /// This field contains the authentication state.
         /// </summary>
         private AuthenticationState _authState;
@@ -139,51 +129,36 @@ namespace CG.Obsidian.Web.Pages.MimeTypes
             FileExtension model
             )
         {
-            try
+            // Clone the model.
+            var temp = model.QuickClone();
+
+            // Make the form validations happy.
+            temp.UpdatedBy = _authState.User.GetEmail();
+            temp.UpdatedDate = DateTime.Now;
+
+            // Pass the model to the dialog.
+            var parameters = new DialogParameters
             {
-                // Reset any error / information.
-                _error = "";
-                _info = "";
+                ["Model"] = temp,
+                ["Caption"] = $"Edit '{temp.Extension}'"
+            };
 
-                // Clone the model.
-                var temp = model.QuickClone();
+            // Create the dialog.
+            var dialog = DialogService.Show<FileExtensionEditDialog>(
+                "",
+                parameters
+                );
 
-                // Make the form validations happy.
-                temp.UpdatedBy = _authState.User.GetEmail();
-                temp.UpdatedDate = DateTime.Now;
+            // Show the dialog.
+            var result = await dialog.Result.ConfigureAwait(false);
 
-                // Pass the model to the dialog.
-                var parameters = new DialogParameters
-                {
-                    ["Model"] = temp,
-                    ["Caption"] = $"Edit '{temp.Extension}'"
-                };
-
-                // Create the dialog.
-                var dialog = DialogService.Show<FileExtensionEditDialog>(
-                    "",
-                    parameters
-                    );
-
-                // Show the dialog.
-                var result = await dialog.Result.ConfigureAwait(false);
-
-                // Did the user hit save?
-                if (!result.Cancelled)
-                {
-                    // Set the changes to the model.
-                    model.Extension = temp.Extension;
-                    model.UpdatedBy = temp.UpdatedBy;
-                    model.UpdatedDate = temp.UpdatedDate;
-
-                    // Tell the world what we did.
-                    _info = $"File Extension: '{model.Extension}' was created";
-                }
-            }
-            catch (Exception ex)
+            // Did the user hit save?
+            if (!result.Cancelled)
             {
-                // Tell the world what happened.
-                _error = ex.Message;
+                // Set the changes to the model.
+                model.Extension = temp.Extension;
+                model.UpdatedBy = temp.UpdatedBy;
+                model.UpdatedDate = temp.UpdatedDate;
             }
         }
 
@@ -198,34 +173,19 @@ namespace CG.Obsidian.Web.Pages.MimeTypes
             FileExtension model
             )
         {
-            try
+            // Prompt the user first.
+            bool? result = await DialogService.ShowMessageBox(
+                "Warning",
+                $"This will delete the file extension: '{model.Extension}'.",
+                yesText: "OK!",
+                cancelText: "Cancel"
+                );
+
+            // Did the user press ok?
+            if (result != null && result.Value)
             {
-                // Reset any error.
-                _error = "";
-                _info = "";
-
-                // Prompt the user first.
-                bool? result = await DialogService.ShowMessageBox(
-                    "Warning",
-                    $"This will delete the file extension: '{model.Extension}'.",
-                    yesText: "OK!",
-                    cancelText: "Cancel"
-                    );
-
-                // Did the user press ok?
-                if (result != null && result.Value)
-                {
-                    // Remove from the parent.
-                    Model.Extensions.Remove(model);
-
-                    // Tell the world what we did.
-                    _info = $"Mime type: '{model.Extension}' was deleted";
-                }
-            }
-            catch (Exception ex)
-            {
-                // Tell the world what happened.
-                _error = ex.Message;
+                // Remove from the parent.
+                Model.Extensions.Remove(model);
             }
         }
 
@@ -240,52 +200,37 @@ namespace CG.Obsidian.Web.Pages.MimeTypes
             MimeType mimeType
             )
         {
-            try
+            // Create a model.
+            var model = new FileExtension()
             {
-                // Reset any error / information.
-                _error = "";
-                _info = "";
-
-                // Create a model.
-                var model = new FileExtension()
-                {
-                    // Make the form validations happy.
-                    CreatedBy = _authState.User.GetEmail(),
-                    CreatedDate = DateTime.Now,
+                // Make the form validations happy.
+                CreatedBy = _authState.User.GetEmail(),
+                CreatedDate = DateTime.Now,
                     
-                    MimeTypeId = Model.Id // Associate with the parent.
-                };
+                MimeTypeId = Model.Id // Associate with the parent.
+            };
 
-                // Pass the model to the dialog.
-                var parameters = new DialogParameters
-                {
-                    ["Model"] = model,
-                    ["Caption"] = $"Add Extension"
-                };
-
-                // Create the dialog.
-                var dialog = DialogService.Show<FileExtensionEditDialog>(
-                    "",
-                    parameters
-                    );
-
-                // Show the dialog.
-                var result = await dialog.Result.ConfigureAwait(false);
-
-                // Did the user hit save?
-                if (!result.Cancelled)
-                {
-                    // Add to the parent.
-                    Model.Extensions.Add(model);
-
-                    // Tell the world what we did.
-                    _info = $"File Extension: '{model.Extension}' was created";
-                }
-            }
-            catch (Exception ex)
+            // Pass the model to the dialog.
+            var parameters = new DialogParameters
             {
-                // Save the error.
-                _error = ex.Message;
+                ["Model"] = model,
+                ["Caption"] = $"Add Extension"
+            };
+
+            // Create the dialog.
+            var dialog = DialogService.Show<FileExtensionEditDialog>(
+                "",
+                parameters
+                );
+
+            // Show the dialog.
+            var result = await dialog.Result.ConfigureAwait(false);
+
+            // Did the user hit save?
+            if (!result.Cancelled)
+            {
+                // Add to the parent.
+                Model.Extensions.Add(model);
             }
         }
 
