@@ -122,7 +122,10 @@ namespace CG.Obsidian.Web
             app.UseCustomBlazor(env);
 
             // Use custom CG.Obsidian logic.
-            app.UseCustomObsidian(env);
+            app.UseCustomObsidian(
+                env,
+                Configuration.GetSection("CG.Obsidian")
+                );
 
             // Use custom swagger.
             app.UseCustomSwagger(env);

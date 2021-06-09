@@ -19,8 +19,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Business" Version="2021.2.16" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.203">
+    <PackageReference Include="CG.Business" Version="2021.2.25" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.205">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
