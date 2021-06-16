@@ -13,12 +13,624 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Managers.IMimeTypeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Managers.IMimeTypeManager.html",
+          "hash": "eY2DI5ywjeDmHNJ1WudiA67/zIjekuxrP5fts1SnLig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Managers.MimeTypeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Managers.MimeTypeManager.html",
+          "hash": "eUKqducp9pmjxVDPYwbWr8CSgNHj4AFXfweAG9/ueQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Managers.html",
+          "hash": "5Jl9mSffmgU8Jor68V6brLyeviExZRxG7A/kFjjNh5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Models.FileExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Models.FileExtension.html",
+          "hash": "9FVJ56GobZTTPln1hUksWKwvdT+Ibu/6B1D3oKlrKfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Models.MimeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Models.MimeType.html",
+          "hash": "CtD5wBpjOxoBt5nNHxJoivuL0tYfB8rcTDjA56TTZaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Models.html",
+          "hash": "x9fhgdvHy85lLw4h9JLZmOidkTRM0p8Z6gsH+GCO6w0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Repositories.IFileExtensionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Repositories.IFileExtensionRepository.html",
+          "hash": "Ojg+WTKyQnXWo/bhmSh23vUgArOgOgaSMOp2/2sj3Kc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Repositories.IMimeTypeRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Repositories.IMimeTypeRepository.html",
+          "hash": "uRcA1A1QDEHBD2y4zyMWu7lz4VbiX+tglL5aHd9NWSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Repositories.html",
+          "hash": "uxo9v97ydJ4ic1BjXMe805IF71euDh3GM+ILcMjU9xI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.ServiceCollectionExtensions.html",
+          "hash": "aQYybhx8CB6sZDJzbG09cIfGPRRfiakC51ZlGDhlLSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.DesignTimeObsidianDbContextFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.DesignTimeObsidianDbContextFactory.html",
+          "hash": "5zHPRpPGioIa+1TcyH8XNuDwUWUlvn6Ye47Pem6ONgo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.Migrations.InitialCreate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.Migrations.InitialCreate.html",
+          "hash": "c4t2YIeDcAtCVrXlzieGLIhsB9qehG4m6eM3QY0ZsAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.Migrations.html",
+          "hash": "YIMhYVU/JZ2jGA+fQkrCqvY3yuC/398uf7cRRdBFgpg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.ObsidianDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.ObsidianDbContext.html",
+          "hash": "P4Qk32cw7lunVdxQLH9UWP31Ke9b63/4UD7DUvhiE58="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.Repositories.FileExtensionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.Repositories.FileExtensionRepository.html",
+          "hash": "2KvkMcHd0dOr63Ot3vv1mKbk5l1G2x2jHrqtFYAV81c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.Repositories.MimeTypeRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.Repositories.MimeTypeRepository.html",
+          "hash": "XfGWfdWYjc49MabJDZVk+Y8U3WfGEBs7UDfh+j7GVhI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.Repositories.Options.ObsidianRepositoryOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.Repositories.Options.ObsidianRepositoryOptions.html",
+          "hash": "pXBZfeCLdENRo4NNClir1jgd4l+KRg1Ht8mzgstty3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.Repositories.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.Repositories.Options.html",
+          "hash": "TWu2XCaQpwK4jXIJA5QqJYa5g70Gd7C29QUlk1RCZMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.Repositories.html",
+          "hash": "KcD6gT95CcZZuJ2wbONWMwZNe1/AJFMNcLARKvF9RHA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.SqlServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.SqlServer.html",
+          "hash": "LNEav3c9D5bJW8d6LV93geSNFI6WN1giEWiAG2oW9wQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Stores.FileExtensionStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Stores.FileExtensionStore.html",
+          "hash": "njfLjJDd9Fx2NhMWTX1D74ky0v2rWMf23pLfWNgfik0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Stores.IFileExtensionStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Stores.IFileExtensionStore.html",
+          "hash": "0GTHlx+U3VIQ18Sb4wOL5fWH6upjFbRtNLtha+8Rt+A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Stores.IMimeTypeStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Stores.IMimeTypeStore.html",
+          "hash": "4vgVoF81uhZ87QJ6x7c9qW3glJNy8tMuFhZW7Wmwweg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Stores.MimeTypeStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Stores.MimeTypeStore.html",
+          "hash": "Iv7InReYrTWMrEQLl0QjwfFrc4kpEhwEacEbMfEiFUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Stores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Stores.html",
+          "hash": "D4lQu+mM1NasdbMdmXPB1nvoFYje1giM7Wq/TB5pkxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Controllers.MimeTypesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Controllers.MimeTypesController.html",
+          "hash": "kxuJBe0ilqZjtzOGJr7fCfja7B5o2PjL7ghjyJQhreo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Controllers.html",
+          "hash": "WPE1WIh7RD3Uyq6tRALgrQ/qnSwt2vLjdgx/3gI8sVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Extensions.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Extensions.ApplicationBuilderExtensions.html",
+          "hash": "Pe2bE96y+3sJeY+nYSbyf3UZnqj/1pmB3dApm2dZ43E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Extensions.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Extensions.ServiceCollectionExtensions.html",
+          "hash": "uzAjh0bHmgjiG9WynAF/l+SNOpBkPWSXDWLuX2iFpVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Extensions.html",
+          "hash": "7M/X+YGq23nQ4I35JRyA3Re4cHndCnkEMfb/eEnJlBc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Options.ApiAuthOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Options.ApiAuthOptions.html",
+          "hash": "hdHUM8rC83CICETFe/y8yUOGMkCNY5XiuOUBDViKmc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Options.IdentityOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Options.IdentityOptions.html",
+          "hash": "eNpnfEFAJVRZS4Jz6tbuQz1FgtYp43mrJkG6EhV34uQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Options.html",
+          "hash": "77cZ0Dnu9JrwZgiPU4CUbmWULUhutC8p05GWzdw0bq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.Account.LoginModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.Account.LoginModel.html",
+          "hash": "1VSe0t05DPtECYAnRjrLc2kNL5GI6qGScV4V+/TBFRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.Account.LogoutModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.Account.LogoutModel.html",
+          "hash": "qGO1+zcYRu1Dazc+ODzPxC5hsRrU9WkbyIaPQXp/+5Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.Account.html",
+          "hash": "LM4pH6XrgAlOu+VMJh7QDJHSlaEYkCjEK9wijvLUi8o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.ErrorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.ErrorModel.html",
+          "hash": "K+ChFsaTh2N0ROPRYMHfka77705BwlWeR+HqgHAaZkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.FileExtensionEditDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.FileExtensionEditDialog.html",
+          "hash": "TQVtcR0S+YzC7yhShnixJg7AQMTNdSHYYrcAMerVq/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.Index.html",
+          "hash": "+h6YK9Xfryv/DeQHc752emkJUbfS06dS6TT5hBrE1is="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.MimeTypeEditDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.MimeTypeEditDialog.html",
+          "hash": "VyJ7YUJnRljNGpA2pXpw4mx1/DvyhR3T+fYRH1dSufk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.MimeTypes.html",
+          "hash": "XkYwgN9Zj9DJR3GD9qRdwvVNUdd053+fveiWOZw250M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Pages.html",
+          "hash": "hwnzEnoTMzcpVUe9qxiROFE+S5xWMByozWT9C5NdeHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Program.html",
+          "hash": "NafmHNFdvEKSW86+74ULBjnAp24eI8Xzk4zx2B4lmJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.Startup.html",
+          "hash": "74hsYEnOh3ZFGgBXpnpYkwHGeIA6xts0gXpTnJVYwpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.Web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.Web.html",
+          "hash": "KjmXetDRFGxYp+7SEH+Wi4lx/Ro0JljYtbs8eZLRBQQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Obsidian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Obsidian.html",
+          "hash": "Vy2tpkIUFi2DrF010C38+52fMEK4lABce8K+kKkfvIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html",
+          "hash": "N836ZzS7jvbJmcfAaujjHntHv2kuZwJ6ceJjRplQ3FU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.html",
+          "hash": "0ci2+GdHUXGWQI/yCgG2OzG7zETyAz+iEZU6Rb/D/xE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
+          "hash": "23IGXSII278VySSPs/Fvi5ZWaJy0/m+X1w1TSWj/2XM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "EcJJLNoMaVFbX5Q6GFJyaXkyDHWdF04b2wkWgdGEfKs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "tAQwrL9P9JNkg3Crx+nW2k0W15AqMulwPg3L75Kgc20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
         }
       },
       "is_incremental": false,
@@ -42,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "OWsnU7wtOHp6PDlAUAP0cTa9hL6dvVZNfUI7uYT1UeY="
+          "hash": "Ak6/me2RTO7EuvINuFdWZNm48M1c+wNfYiyAwxZYh+0="
         }
       },
       "is_incremental": false,
@@ -54,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Fw87zGtWMM2m0y7vSGReydZrTvczObwIlDgm4nrdf8M="
+          "hash": "D9IprGHLK0LYgBripQDCs8g9c2iXBQ7Wnh/6foX1Oa0="
         }
       },
       "is_incremental": false,
@@ -76,6 +688,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 50,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
