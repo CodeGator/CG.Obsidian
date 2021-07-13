@@ -26,11 +26,11 @@
     <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="5.0.1" />
     <PackageReference Include="CG.Blazor.Components" Version="2021.1.4" />
     <PackageReference Include="CG.Blazor.Identity" Version="2021.1.5" />
-    <PackageReference Include="CG.Serilog" Version="2021.2.13" />
+    <PackageReference Include="CG.Serilog" Version="2021.3.1" />
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.7" />
-    <PackageReference Include="MudBlazor" Version="5.0.13" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.216">
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.8" />
+    <PackageReference Include="MudBlazor" Version="5.0.15" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.220">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

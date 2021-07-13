@@ -4,6 +4,7 @@
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Obsidian/index.html)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Obsidian/60)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Obsidian/discussions)
+[![CG.Obsidian on fuget.org](https://www.fuget.org/packages/CG.Obsidian/badge.svg)](https://www.fuget.org/packages/CG.Obsidian)
 
 #### What does it do?
 Obsidian is a nanoservice that manages MIME types and associated file extensions.
@@ -17,6 +18,8 @@ Obsidian is a nanoservice that manages MIME types and associated file extensions
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Obsidian/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Obsidian/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Obsidian/)
