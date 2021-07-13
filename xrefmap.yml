@@ -1664,12 +1664,12 @@ references:
   commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
   fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
   nameWithType: ApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.String)
-  name: UseSqlServerRepositories(IApplicationBuilder, String)
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseSqlServerRepositories_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_String_
-  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.String)
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.String)
-  nameWithType: ApplicationBuilderExtensions.UseSqlServerRepositories(IApplicationBuilder, String)
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
+  name: UseSqlServerRepositories(IApplicationBuilder, IHostEnvironment)
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseSqlServerRepositories_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Hosting_IHostEnvironment_
+  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.Extensions.Hosting.IHostEnvironment)
+  nameWithType: ApplicationBuilderExtensions.UseSqlServerRepositories(IApplicationBuilder, IHostEnvironment)
 - uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories*
   name: UseSqlServerRepositories
   href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseSqlServerRepositories_

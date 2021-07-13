@@ -124,19 +124,19 @@ type.</p>
   </div>
   <h5 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This class contains only those extension methods that are related to the logic
-within the <see cref="!:CG.Beryl.SqlServer"></see> library itself.</p>
+within the <a class="xref" href="CG.Obsidian.SqlServer.html">CG.Obsidian.SqlServer</a> library itself.</p>
 </div>
   <h3 id="methods">Methods
   </h3>
   <a id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseSqlServerRepositories_" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories*"></a>
-  <h4 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseSqlServerRepositories_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_String_" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.String)">UseSqlServerRepositories(IApplicationBuilder, String)</h4>
+  <h4 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseSqlServerRepositories_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Hosting_IHostEnvironment_" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)">UseSqlServerRepositories(IApplicationBuilder, IHostEnvironment)</h4>
   <div class="markdown level1 summary"><p>This method wires up any startup logic required to support the
 repositories and underyling SQL Server for the CG.Beryl library.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseSqlServerRepositories(this IApplicationBuilder applicationBuilder, string configurationSection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseSqlServerRepositories(this IApplicationBuilder applicationBuilder, IHostEnvironment hostEnvironment)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,10 +156,10 @@ the operation.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">configurationSection</span></td>
-        <td><p>The configuration section name
-that corresponds with the repositories.</p>
+        <td><span class="xref">Microsoft.Extensions.Hosting.IHostEnvironment</span></td>
+        <td><span class="parametername">hostEnvironment</span></td>
+        <td><p>The host environment to use for the
+operation.</p>
 </td>
       </tr>
     </tbody>
