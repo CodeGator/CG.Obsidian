@@ -1,13 +1,20 @@
 ﻿@inherits LayoutComponentBase
 @inject TokenProvider TokenProvider
 
+<MudThemeProvider />
+<MudDialogProvider FullWidth="true"
+                   MaxWidth="MaxWidth.ExtraSmall"
+                   CloseButton="true"
+                   Position="DialogPosition.Center" />
+<MudSnackbarProvider />
+
 <MudLayout>
     <MudAppBar Elevation="4">
         <MudIconButton Icon="@Icons.Material.Filled.Menu"
                        Color="Color.Inherit"
                        Edge="Edge.Start"
                        OnClick="@((e) => DrawerToggle())" />
-        <MudAppBarSpacer />
+        <MudSpacer />
         <AuthorizeView>
             <Authorized>
                 <MudButton Variant="Variant.Text" Color="Color.Inherit">

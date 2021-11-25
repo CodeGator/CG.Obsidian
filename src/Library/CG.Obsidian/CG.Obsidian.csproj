@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Authors>Martin Cook</Authors>
     <Company>CodeGator</Company>
     <Description>Obsidian is a nanoservice, from CodeGator, that manages MIME types and associated file extensions.</Description>
-    <Copyright>Copyright © 2017 - 2021 by CodeGator. All rights reserved.</Copyright>
+    <Copyright>Copyright © 2017 - 2022 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Obsidian</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CodeGator/CG.Obsidian</RepositoryUrl>
@@ -15,11 +15,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\net5.0\CG.Obsidian.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net6.0\CG.Obsidian.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.231">
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.244">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

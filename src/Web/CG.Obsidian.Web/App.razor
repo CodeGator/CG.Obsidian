@@ -1,12 +1,5 @@
 @inject TokenProvider TokenProvider
 
-<MudThemeProvider />
-<MudDialogProvider FullWidth="true"
-                   MaxWidth="MaxWidth.ExtraSmall"
-                   CloseButton="true"
-                   Position="DialogPosition.Center" />
-<MudSnackbarProvider />
-
 <CascadingAuthenticationState>
     <Router AppAssembly="@typeof(Program).Assembly" PreferExactMatches="@true">
         <Found Context="routeData">
